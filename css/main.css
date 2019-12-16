@@ -3,8 +3,6 @@ body {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
-
-
 hr {
 	border: 2px solid white;
 	border-radius: 5px;
@@ -12,20 +10,15 @@ hr {
 	margin-left: 22%;
 	margin-right: 22%;
 }
-
 input[type=text] {
 	background-color: transparent;
 	color: white;
 	border: none;
 	font-size: 15px;
 }
-
-
-
 span {
 	font-size: 15px;
 }
-
 .input-group {
 	padding: 14px 15px;
 	margin-top: 1%;
@@ -34,8 +27,6 @@ span {
 	font-size: 15px;
 	border-radius: 5px;
 }
-
-
 input[type=submit] {
   width: 53%;
   background-color: transparent;
@@ -46,13 +37,10 @@ input[type=submit] {
   cursor: pointer;
   font-size: 15px;
 }
-
 input[type=submit]:hover {
   border: 2px solid #b3b3b3;
   color: #b3b3b3;
  }
-
-
 .convert-button {
   color: white;
   border: 2px solid white;
