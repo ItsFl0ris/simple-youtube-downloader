@@ -14,7 +14,7 @@ ytdl.getInfo(URL, function(err, info) {
     var fileNm = info.title + ".mp3";
     
 res.header('Content-Disposition', `attachment; filename=${fileNm}`);
-
+console.log("Succesfully downloaded " + fileNm + "!");
 ytdl(URL, {
     format: 'mp3'
     }).pipe(res);
